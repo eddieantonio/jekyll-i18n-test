@@ -1,8 +1,17 @@
 title: This is a test page
 description: Test website
+twitter:
+  username: test
+social:
+  - https://twitter.com/test
+  - https://facebook.com/test
+  - https://github.com/octodex
 
 plugins:
+  - jekyll-feed
   - jekyll-polyglot
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Jekyll config
 permalink: pretty
@@ -21,7 +30,6 @@ exclude_from_localiztion:
 exclude:
  - "README.md"
  - ".gitignore"
-
 
 # Sets the default layout for pages and posts.
 defaults:

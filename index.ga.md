@@ -1,5 +1,6 @@
 ---
 title: Leathanach baile
+description: "Ní féidir liom Gaeilge a labhairt. :("
 permalink: /
 lang: ga
 ---

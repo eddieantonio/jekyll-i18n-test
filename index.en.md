@@ -1,5 +1,6 @@
 ---
 title: Home
+description: This is the home page.
 permalink: /
 lang: en
 ---
