@@ -12,6 +12,8 @@ permalink: pretty
 languages: ["en", "ga"]
 default_langauge: "en"
 parallel_localization: true
+# figure out post language from subdirectory, i.e., _posts/en, _posts/ga
+lang_from_path: true
 # Prevent Polyglot from trying to translate these files:
 exclude_from_localiztion:
   - "assets"
