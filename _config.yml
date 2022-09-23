@@ -1,0 +1,5 @@
+title: This is a test page
+description: Test website
+
+plugins:
+  - jekyll-polyglot
