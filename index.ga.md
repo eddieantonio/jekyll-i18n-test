@@ -5,4 +5,4 @@ permalink: /
 lang: ga
 ---
 
-Dia guit!
+Dia duit!
