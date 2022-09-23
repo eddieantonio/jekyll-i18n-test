@@ -3,3 +3,10 @@ description: Test website
 
 plugins:
   - jekyll-polyglot
+
+languages: ["en", "ga"]
+default_langauge: "ga"
+parallel_localization: true
+
+exclude:
+ - ".gitignore"
