@@ -6,8 +6,13 @@ lang: ga
 
 Dia duit!
 
-# Nuacht
-
+<h2>Nuacht</h2>
 {% for post in site.posts %}
- - [{{ post.title }}]({{ post.url }})
+<article>
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <blockquote>
+    {{ post.excerpt }}
+  </blockquote>
+  <p><a href="{{ post.url }}">Leigh Nios mo…</a></p>
+</article>
 {% endfor %}
