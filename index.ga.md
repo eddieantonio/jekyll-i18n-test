@@ -1,8 +1,13 @@
 ---
 title: Leathanach baile
-layout: default
 permalink: /
 lang: ga
 ---
 
 Dia duit!
+
+# Nuacht
+
+{% for post in site.posts %}
+ - [{{ post.title }}]({{ post.url }})
+{% endfor %}

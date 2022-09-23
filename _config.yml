@@ -4,9 +4,34 @@ description: Test website
 plugins:
   - jekyll-polyglot
 
+# Jekyll config
+permalink: pretty
+
+# Jekyll Polyglot plugin
+# See: https://github.com/untra/polyglot#configuration
 languages: ["en", "ga"]
-default_langauge: "ga"
+default_langauge: "en"
 parallel_localization: true
+# Prevent Polyglot from trying to translate these files:
+exclude_from_localiztion:
+  - "assets"
 
 exclude:
+ - "README.md"
  - ".gitignore"
+
+
+# Sets the default layout for pages and posts.
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
