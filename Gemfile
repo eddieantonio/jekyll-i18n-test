@@ -11,4 +11,6 @@ end
 
 # Required to run Jekyll on Ruby 3.0+:
 # See: https://github.com/jekyll/jekyll/issues/8523#issuecomment-751409319
-gem "webrick", "~> 1.7"
+group :development do
+   gem "webrick", "~> 1.7"
+end
